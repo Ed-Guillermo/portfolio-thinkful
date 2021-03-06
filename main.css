@@ -8,19 +8,19 @@ body{
 }
 /* styling links */
 a:link {
-  color: black;
+  color: #000000;
 }
 /* visited link */
 a:visited {
-  color: gray;
+  color: #808080;
 }
 /* mouse over link */
 a:hover {
-  color: blue;
+  color: #0000FF;
 }
 /* selected link */
 a:active {
-  color: red;
+  color: #FF0000;
 }
 /* Set Header to Flex to better position the logo and my name  */
 .header{
