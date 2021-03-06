@@ -6,6 +6,7 @@ body{
   margin: 0;
   font-family: sans-serif;
 }
+/* Set Header to Flex to better position the logo and my name  */
 .header{
   background-color: black;
   width: 100%;
@@ -14,6 +15,8 @@ body{
   display: flex;
   flex-direction: row;
 }
+/* Used vw instead of setting it to a specfic size in
+   order make the logo responsive*/
 .logo{
   width: 20vw;
   height: 20vw;
@@ -21,11 +24,24 @@ body{
   margin-top: auto;
   margin-bottom: auto;
 }
+/* Positioning and Sizing for the Title of the webpage */
+.header-title{
+  color: silver;
+  text-align: center;
+  font-size: 7vw;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* Positioning the AboutMe header*/
 .centerAbout{
   text-align: center;
   text-decoration: underline;
   vertical-align: middle;
 }
+/* The Portfolio pic was to close to the top of the page
+    Used margin top/bottom to fix that*/
 .portfolio-pic{
   margin-top: 5%;
   margin-bottom: 5%;
@@ -38,16 +54,9 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.header-title{
-  color: silver;
-  text-align: center;
-  font-size: 7vw;
-  margin-left: 10%;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
+/* Positioning for My lists of interest.
+   Also making sure the bullet points aren't
+   far away from the text */
 .list{
   text-align: center;
   list-style-position: inside;
@@ -63,7 +72,8 @@ body{
 .contact{
   text-align: center;
 }
-
+/* Had to position footer to absolute. This enables
+   footer's background to be all black */
 .footer{
   position: absolute;
   height: 20vw;
