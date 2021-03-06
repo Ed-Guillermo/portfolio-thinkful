@@ -8,7 +8,7 @@ body{
 }
 /* styling links */
 a:link {
-  color: #FF0000;
+  color: black;  
 }
 /* visited link */
 a:visited {
